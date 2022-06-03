@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* BARRA NAVEGACION */
+.logo{
+    height: 150px;
+    width: 150px;
+    position: center;
+    align-items: center;
+    }
+
+.banner{
+   background-color: #f28500;
+    color: black;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+
+.banner__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40px;
+    margin: auto; 
+    padding: 1%;
+    height: 10px;
+    }
+
+ body{
+    min-height: 100vh;
+    position: relative;
+    }
+
+ nav{
+    justify-content: left;
+}
+
+ footer{
+   height: 60px; 
+   }
+              
+ body{
+    background-color: white;
+       }
+
+     
+/* NUEVA PAGINA ADIESTRAMIENTO CANINo */
+
+     /* INDEXXXXXXXXXX */
+
+     .Div-formasInfo{
+         text-align: center;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
+            
+     }
+
+     .formasEdu{
+         font-size: 40px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+
+     .formasEduR{
+         font-size: 30px;
+         color: #c06500;
+     }
+
+     .EducaDominancia{
+         text-align: center;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
+     }
+
+
+     .TituloeduDominancia{
+         font-size: 30px;
+         color: #c06500;
+
+     }
+
+
+     .ResaltaInfo{
+         font-size: 20px;
+         background-color:#853400 ;
+         margin: 20px;
+         color: white;
+
+     }
+
+
+
+     .QueSaber{
+        text-align: center;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;  
+     }
+
+
+     .queSaberTitulo{
+         font-size: 30px;
+     }    
+     
+     .mainContent{
+         display: flex;
+         flex-direction: column;
+     }
+
+     .fa-index-div{
+         display: flex;
+         flex-direction: row;
+       
+         flex-wrap: wrap;
+         justify-content: center;
+         
+     }
+
+       .fa-index{
+         width: 300px;
+         height: 300px;
+         margin: 10px;
+        display: flex;
+        flex-direction: row;
+     }
+
+     .bienvenida-index{
+         font-size: 30px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         text-align: center;
+         color:#c06500 ;
+        
+     }
+
+    
+
+     .bienvenida-indexy{
+         font-size: 15px;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         text-align: center;
+     }
+
+     .InfoImport{
+         background-color: plum;
+         margin: 10px;
+     }
+
+     .textoInfou{
+         font-size: 13px;
+         text-align: center  ;
+     }
+
+     .textoInfo{
+         font-size: 15px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         text-align: center;
+     }
+
+     .bienvenida-indexu{
+         text-align: center;
+         font-size: 15px;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+     }
+
+     .fa-index-text{
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 25px;
+        
+         
+
+     }
+
+ /* CURSOSSSSSSSSSS */
+
+.Cursos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.btn-primary{
+    background-color:yellow;
+    color: black;
+    
+}
+
+.titulo{
+    margin: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.subTitulos{
+    font-size: 25px;
+    background-color: #853400;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    
+
+}
+
+.card{
+ background-color:#f28500;
+ margin: 10px;   
+}
+
+.tituloCc{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tituloCcc{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* BIENESTAR ANIMALLLL */
+
+.tituloBa{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: #c06500;
+}
+
+.baDIV{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tituloCat{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.fotosBa{
+    width: 300px;
+    height: 300px;
+    margin: 90px;
+   
+}
+
+
+.infoCat{
+    background-color: #c06500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.formulario{
+    height: 100;
+}
+      
+
+
+/* RUTINASSS */
+
+.rutinaPositiva{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tituloRutinas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: #c06500;
+}
+
+.listaRutinas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #c06500;
+}
+
+.RutinasActividades{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+/* MEDIAS QUERIES */
+
+@media only screen and (max-width:375px) {
+     .banner{
+         font-size: 10px;
+    }
+
+    .fotosBa{
+        margin: 10px;
+    }
+
+    
+    
+}
+       
+
+     
+       
