@@ -20,22 +20,25 @@
     align-content: center;
    }
 
-.banner__list li{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    width: 40px;
+.banner__list{
     padding: 1%;
-    height: 10px;
+    color: black;
+    height: 100%;
+    text-align: center;
    
-   
-    }
+}
 
 
+.imgFooter{
+    text-align: center;
+    height: 40px;
+    width: 40px;
+}
 
  body{
     min-height: 100vh;
     position: relative;
+    background-color: white;
     }
 
  nav{
@@ -46,9 +49,7 @@
    height: 60px; 
    }
               
- body{
-    background-color: white;
-       }
+ 
 
      
 /* NUEVA PAGINA ADIESTRAMIENTO CANINo */
@@ -226,21 +227,6 @@
     font-size: 20px;
 }
 
-.mb-3{
-    
-    width: 400px;
-}
-
-.form-select{
-    width: 400px;
-}
-
-.form-contacto{
-    margin: 30px;
-    background-color: #c06500;
-    text-align: center;
-}
-
 /* BIENESTAR ANIMALLLL */
 
 .tituloBa{
@@ -313,7 +299,39 @@
     
 }
 
-/* MEDIAS QUERIES */
+/* CONTACTO */
+
+.imgContacto{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    
+}
+
+.infoContacto{
+    text-align: center;
+}
+
+.mb-3{
+    
+    width: 400px;
+    
+}
+
+.form-select{
+    width: 400px;
+   
+   
+}
+
+.form-contacto{
+    text-align: center;
+    margin: 90px;
+    background-color: #c06500;
+    text-align: center;
+}
+
+/* MEDIAS QUERyS */
 
 @media only screen and (max-width:375px) {
      .banner{
@@ -324,7 +342,19 @@
         margin: 10px;
     }
 
-    
+    .imgContacto{
+        height: 250px;
+        width: 250px;
+        flex-wrap: wrap;
+    }
+
+    .mb-3{
+        width: 250px;
+    }
+
+    .form-select{
+        width: 250px;
+    }
     
 }
        
