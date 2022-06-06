@@ -209,7 +209,7 @@
 }
 
 .card{
- background-color:#f28500;
+ background-color:#ffcc50;
  margin: 10px;   
 }
 
@@ -320,15 +320,18 @@
 
 .form-select{
     width: 400px;
-   
-   
+    
 }
 
 .form-contacto{
     text-align: center;
-    margin: 90px;
-    background-color: #c06500;
+    margin: 50px;
+    background-color:#ffcc50;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 /* MEDIAS QUERyS */
@@ -354,6 +357,10 @@
 
     .form-select{
         width: 250px;
+    }
+    .form-contacto{
+        flex-wrap: wrap;
+        margin: 30px;
     }
     
 }
