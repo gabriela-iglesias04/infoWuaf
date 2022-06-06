@@ -35,6 +35,11 @@
     width: 40px;
 }
 
+.nav-link{
+    color: black;
+    font-size: 15px;
+}
+
  body{
     min-height: 100vh;
     position: relative;
@@ -116,25 +121,54 @@
      .fa-index-div{
          display: flex;
          flex-direction: row;
-       
          flex-wrap: wrap;
          justify-content: center;
-         
+          }
+
+    .fa-index{
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+           display: flex;
+           flex-direction: row;
+           
+            
+          }
+
+     .imgIndex{
+            width: 300px;
+            height: 300px;
+            margin: 10px;
+           display: flex;
+           flex-direction: row;
+           position: relative;
+           overflow: hidden;
+            cursor: pointer;              
+          }
+
+     .imgIndex::before{
+         content: "Educacion";
+         position: absolute;
+         top: 0;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background-color: black;
+         transform: translate(100%);
+         transition:4s;
+
      }
 
-       .fa-index{
-         width: 300px;
-         height: 300px;
-         margin: 10px;
-        display: flex;
-        flex-direction: row;
+     .imgIndex:hover::before{
+         transform: translate(0) rotate(360deg)
+
+
      }
 
-     .bienvenida-index{
+      .bienvenida-index{
          font-size: 30px;
          font-family: Georgia, 'Times New Roman', Times, serif;
          text-align: center;
-         color:#c06500 ;
         
      }
 
@@ -329,6 +363,7 @@
     background-color:#ffcc50;
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     
@@ -361,6 +396,11 @@
     .form-contacto{
         flex-wrap: wrap;
         margin: 30px;
+    }
+
+    .fa-index{
+     height: 200px;
+     width: 200px;
     }
     
 }
