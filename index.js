@@ -1,10 +1,17 @@
-const  suma   =  ( a , b )  =>  a  +  b ;
-const  resta  =  ( a , b )  =>  a  -  b ;
-const  iva    =  x  =>  x  *  0.21 ;
+  
+  /*  */
 
-let  precioProducto   =  2900 ;
-let  ​​descuento  =  40 ; 
+  function bienvenida (nombre , apellido){
+   console.log(`Bienvenidx a Info Wuaf ${nombre} ${apellido}`);
+  }
+ bienvenida("tali" , "iglesias");
 
-let  nuevoPrecio  =  resta ( suma ( precioProducto ,  iva ( precioProducto ) ) ,  descuento ) ;
- 
-console.log(nuevoPrecio);
+ const suma =(a , b) => a + b;
+ const resta =(a , b)=> a - b;
+ const iva = x => x * 0.21;
+
+ let precioProducto = 2900;
+ let descuento = 40;
+
+ let nuevoPrecio = resta(suma (precioProducto , iva (precioProducto)) , descuento);
+ console.log(nuevoPrecio)
