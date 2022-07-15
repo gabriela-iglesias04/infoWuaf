@@ -15,3 +15,32 @@
 
  let nuevoPrecio = resta(suma (precioProducto , iva (precioProducto)) , descuento);
  console.log(nuevoPrecio)
+
+ 
+const productos = [
+  {id: 1,nombre:"curso de agresividad" , precio:1500},
+  {id: 2,nombre:"curso de criar cachorro" , precio:2000},
+  {id: 3,nombre:"curso de reactividad", precio:2500},
+];
+
+
+console.log(productos.some(elemento => elemento.nombre === "curso de reactividad"));
+
+const actualizacion = productos.map(elemento => {
+  return {
+    id:elemento.id,
+    nombre : elemento.nombre,
+    precio: elemento.precio + 1000
+  }
+})
+
+console.log(actualizacion);
+
+const carrito = [
+  { id: 1, nombre: "curso de agresividad", precio: 1500},
+  {id: 2,nombre:"curso de criar cachorro" , precio:2000},
+  {id: 3,nombre:"curso de reactividad", precio:2500},
+];
+
+let total= carrito.reduce ((acumulador, elemento) => acumulador + elemento.precio, 0);
+console.log(total);
